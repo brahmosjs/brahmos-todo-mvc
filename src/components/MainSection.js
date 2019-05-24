@@ -1,4 +1,5 @@
-import React, {Component, PropTypes} from 'react'
+import {Component, html, createElement} from 'brahmos'
+
 import TodoItem from './TodoItem'
 import Footer from './Footer'
 
@@ -9,10 +10,6 @@ import Footer from './Footer'
  }
 
  export default class MainSection extends Component {
-   static propTypes = {
-     todos: PropTypes.array.isRequired,
-     actions: PropTypes.object.isRequired
-   }
 
    state = { filter: 'SHOW_ALL' }
 
@@ -49,8 +46,8 @@ import Footer from './Footer'
            completedCount={completedCount}
            activeCount={activeCount}
            filter={filter}
-           onClearCompleted={this.handleClearCompleted.bind(this)}
-           onShow={this.handleShow.bind(this)} />
+           onClearCompleted={this.handleClearCompleted}
+           onShow={this.handleShow} />
        )
      }
    }

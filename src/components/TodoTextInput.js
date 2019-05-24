@@ -1,14 +1,8 @@
-import React, {Component, PropTypes} from 'react'
+import {Component, html, createElement} from 'brahmos'
+
 import classnames from 'classnames'
 
 export default class TodoTextInput extends Component {
-  static propTypes = {
-    onSave: PropTypes.func.isRequired,
-    text: PropTypes.string,
-    placeholder: PropTypes.string,
-    editing: PropTypes.bool,
-    newTodo: PropTypes.bool
-  }
 
   state = {
     text: this.props.text || ''

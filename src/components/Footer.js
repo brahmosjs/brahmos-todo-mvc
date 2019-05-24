@@ -1,4 +1,5 @@
-import React, {PropTypes, Component} from 'react'
+import {Component, html, createElement} from 'brahmos'
+
 import classnames from 'classnames'
 
 const FILTER_TITLES = {
@@ -8,14 +9,6 @@ const FILTER_TITLES = {
 }
 
 export default class Footer extends Component {
-  static propTypes = {
-    completedCount: PropTypes.number.isRequired,
-    activeCount: PropTypes.number.isRequired,
-    filter: PropTypes.string.isRequired,
-    onClearCompleted: PropTypes.func.isRequired,
-    onShow: PropTypes.func.isRequired
-  }
-
   renderTodoCount() {
     const {activeCount} = this.props
 
@@ -35,6 +28,7 @@ export default class Footer extends Component {
 
     return (
       <a
+        href="#"
         className={classnames({ selected: filter === selectedFilter })}
         style={{cursor: 'pointer' }}
         onClick={() => onShow(filter)}>

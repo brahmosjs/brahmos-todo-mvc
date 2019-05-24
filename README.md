@@ -1,9 +1,8 @@
-# React-todoMVC
+# Brahmos-todoMVC
 
-It seemed that http://todomvc.com/ didn't have a good react example.
+TODO-MVC for Brahmos
 
-The only one I [saw](https://github.com/tastejs/todomvc/tree/gh-pages/examples/react) used ES5
+See demo on
+[Live: brahmos-todo-mvc](https://s-yadav.github.io/brahmos-todo-mvc)
 
-This one uses ES6/ES7 and create-react-app
-
-[Live: React-todoMVC](https://chriswiles.github.io/React-todoMVC)
+Fork of [React todoMVC](https://github.com/ChrisWiles/React-todoMVC) by ChrisWiles.

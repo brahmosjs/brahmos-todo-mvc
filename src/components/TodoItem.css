@@ -1,0 +1,10 @@
+.todo-list li input.toggle {
+  appearance: checkbox;
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  margin-left: 10px; 
+}
+
+.todo-list li input.toggle::after{
+  display: none;
+}

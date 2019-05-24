@@ -1,9 +1,8 @@
-import React from 'react'
-import {render} from 'react-dom'
+import {render, html, createElement} from 'brahmos'
 import App from './components/App'
 
 import 'todomvc-app-css/index.css'
 
 render(
-    <App />,document.getElementById('root')
+    <App />, document.getElementById('root')
 )
