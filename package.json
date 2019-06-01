@@ -1,13 +1,13 @@
 {
   "name": "brahmos-todo-mvc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "start": "webpack-dev-server --open",
-    "build": "NODE_ENV=production webpack && yarn build-page",
-    "build-page": "git subtree push --prefix public origin gh-pages"
+    "build": "NODE_ENV=production webpack",
+    "build-page": "sh ./build.sh"
   },
   "dependencies": {
-    "brahmos": "^0.2.1",
+    "brahmos": "^0.3.1",
     "classnames": "^2.2.5",
     "todomvc-app-css": "^2.0.6"
   },

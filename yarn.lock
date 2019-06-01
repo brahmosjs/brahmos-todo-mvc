@@ -1157,10 +1157,10 @@ braces@^2.3.1, braces@^2.3.2:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-brahmos@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/brahmos/-/brahmos-0.2.1.tgz#3503a23f7dce8898bbc6823054763cc73e277536"
-  integrity sha512-8BDSfhr03ktrAldsd77C2y9iK+lVbr0QwK55DZlPbUVyXDczmRjbEBH33xiA/2HD+DpX14AoOHyQ9uquFEFlGw==
+brahmos@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/brahmos/-/brahmos-0.3.1.tgz#46cc3bf353932e43e44014d71bb9134d609e8384"
+  integrity sha512-kVIOpRsIVHm720y4KkoqwxPgC5jtVk2t3frSPo+y65Bygegdf2A3Rer56O5bIvm2uPbdhwQS5G2KPDOiz2/uXQ==
   dependencies:
     "@babel/runtime" "^7.4.5"
 
