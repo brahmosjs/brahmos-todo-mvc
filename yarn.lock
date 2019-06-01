@@ -629,13 +629,6 @@
     js-levenshtein "^1.1.3"
     semver "^5.5.0"
 
-"@babel/runtime@^7.4.5":
-  version "7.4.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.5.tgz#582bb531f5f9dc67d2fcb682979894f75e253f12"
-  integrity sha512-TuI4qpWZP6lGOGIuGWtp9sPluqYICmbk8T/1vpSysqJxRPkudh/ofFWyqdcMsDf2s7KvDL4/YHgKyvcS3g9CJQ==
-  dependencies:
-    regenerator-runtime "^0.13.2"
-
 "@babel/template@^7.1.0", "@babel/template@^7.4.4":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.4.4.tgz#f4b88d1225689a08f5bc3a17483545be9e4ed237"
@@ -1029,10 +1022,10 @@ babel-loader@^8.0.6:
     mkdirp "^0.5.1"
     pify "^4.0.1"
 
-babel-plugin-brahmos@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/babel-plugin-brahmos/-/babel-plugin-brahmos-0.1.3.tgz#7eab76059169c4f9684634aa1c14602464cb28f6"
-  integrity sha512-7E2WI9eucWiRRr+7FcNH9J/TXpX7lyXkXlINobTi+AA7/Ykk9d8rVUgD0ifpA005yo/cXlVrIgymJLBwFE3TyQ==
+babel-plugin-brahmos@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-brahmos/-/babel-plugin-brahmos-0.2.0.tgz#f2c5705617afc0a4eaf15a5ab03a964a90310089"
+  integrity sha512-MP0chinF15K+0t9ptrpGqm7MHQgqIJOOU/bfwUYQGI0Grrtxy8Is+r3hJnhQiGny81RlQeTFHZswTVG4bQdLTQ==
   dependencies:
     "@babel/plugin-syntax-jsx" "^7.2.0"
 
@@ -1157,12 +1150,10 @@ braces@^2.3.1, braces@^2.3.2:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-brahmos@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/brahmos/-/brahmos-0.3.1.tgz#46cc3bf353932e43e44014d71bb9134d609e8384"
-  integrity sha512-kVIOpRsIVHm720y4KkoqwxPgC5jtVk2t3frSPo+y65Bygegdf2A3Rer56O5bIvm2uPbdhwQS5G2KPDOiz2/uXQ==
-  dependencies:
-    "@babel/runtime" "^7.4.5"
+brahmos@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/brahmos/-/brahmos-0.4.0.tgz#90d1195f4bc0d91822c9b50ad58d361fd5589e75"
+  integrity sha512-b6S44zl3EZl4T0uExxEbxL5f979hV9+nXEJd1jXI0FPKctTua+bCf3yKDU1qmIcPclSTSQRF8Xy3oCQzUDJl2w==
 
 brorand@^1.0.1:
   version "1.1.0"
@@ -4091,11 +4082,6 @@ regenerate@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
   integrity sha512-1G6jJVDWrt0rK99kBjvEtziZNCICAuvIPkSiUFIQxVP06RCVpq3dmDo2oi6ABpYaDYaTRr67BEhL8r1wgEZZKg==
-
-regenerator-runtime@^0.13.2:
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.2.tgz#32e59c9a6fb9b1a4aff09b4930ca2d4477343447"
-  integrity sha512-S/TQAZJO+D3m9xeN1WTI8dLKBBiRgXBlTJvbWjCThHWZj9EvHK70Ff50/tYj2J/fvBY6JtFVwRuazHN2E7M9BA==
 
 regenerator-transform@^0.14.0:
   version "0.14.0"
