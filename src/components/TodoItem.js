@@ -1,4 +1,4 @@
-import {Component, html, createElement} from 'brahmos'
+import Brahmos, {Component} from 'brahmos'
 
 import classnames from 'classnames'
 import TodoTextInput from './TodoTextInput'

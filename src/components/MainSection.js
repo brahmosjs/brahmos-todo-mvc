@@ -1,4 +1,4 @@
-import {Component, html, createElement} from 'brahmos'
+import Brahmos, {Component} from 'brahmos'
 
 import TodoItem from './TodoItem'
 import Footer from './Footer'
