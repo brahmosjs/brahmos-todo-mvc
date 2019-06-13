@@ -7,7 +7,7 @@
     "build-page": "sh ./build.sh"
   },
   "dependencies": {
-    "brahmos": "^0.4.0",
+    "brahmos": "^0.5.0",
     "classnames": "^2.2.5",
     "todomvc-app-css": "^2.0.6"
   },

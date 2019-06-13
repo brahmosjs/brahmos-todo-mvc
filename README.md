@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/s-yadav/brahmos" target="_blank">
-    <img src="https://unpkg.com/brahmos/brahmos.svg" alt="Brahmos.js" width="250">
+    <img src="https://unpkg.com/brahmos@0.5.0/brahmos.svg" alt="Brahmos.js" width="250">
   </a>
 </p>
 

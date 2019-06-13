@@ -1150,10 +1150,10 @@ braces@^2.3.1, braces@^2.3.2:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-brahmos@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/brahmos/-/brahmos-0.4.0.tgz#90d1195f4bc0d91822c9b50ad58d361fd5589e75"
-  integrity sha512-b6S44zl3EZl4T0uExxEbxL5f979hV9+nXEJd1jXI0FPKctTua+bCf3yKDU1qmIcPclSTSQRF8Xy3oCQzUDJl2w==
+brahmos@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/brahmos/-/brahmos-0.5.0.tgz#efbff9fc5808d44eb1709f67ff2ee7ee8fb13cb2"
+  integrity sha512-VaN6Al6GAc0mllccWPW/EhEZtZPXvnR4AmfAVEnc1fRQZ+tb1W0WlkbudJyiUlMyZ5DDoNpEeOajDaAq+viMxA==
 
 brorand@^1.0.1:
   version "1.1.0"
