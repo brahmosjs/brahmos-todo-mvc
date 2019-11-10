@@ -12,4 +12,12 @@ Brahmos Library: [https://github.com/s-yadav/brahmos](https://github.com/s-yadav
 See demo on
 [Live: brahmos-todo-mvc](https://s-yadav.github.io/brahmos-todo-mvc)
 
+
+## Usage Instructions
+
+1. Download [yarn](https://yarnpkg.com/lang/en/docs/install/) if you don't have it.
+1. Install project dependencies with `yarn install`.
+1. Start the dev server with `yarn start`.
+1. WebApp will open on http://localhost:8085.
+
 Fork of [React todoMVC](https://github.com/ChrisWiles/React-todoMVC) by ChrisWiles.
