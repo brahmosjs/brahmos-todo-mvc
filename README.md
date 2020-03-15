@@ -1,9 +1,23 @@
-# React-todoMVC
+<p align="center">
+  <a href="https://github.com/s-yadav/brahmos" target="_blank">
+    <img src="https://unpkg.com/brahmos@0.5.0/brahmos.svg" alt="Brahmos.js" width="250">
+  </a>
+</p>
 
-It seemed that http://todomvc.com/ didn't have a good react example.
+# Brahmos-todoMVC
+TODO-MVC Built with Brahmos
 
-The only one I [saw](https://github.com/tastejs/todomvc/tree/gh-pages/examples/react) used ES5
+Brahmos Library: [https://github.com/s-yadav/brahmos](https://github.com/s-yadav/brahmos)
 
-This one uses ES6/ES7 and create-react-app
+See demo on
+[Live: brahmos-todo-mvc](https://s-yadav.github.io/brahmos-todo-mvc)
 
-[Live: React-todoMVC](https://chriswiles.github.io/React-todoMVC)
+
+## Usage Instructions
+
+1. Download [yarn](https://yarnpkg.com/lang/en/docs/install/) if you don't have it.
+1. Install project dependencies with `yarn install`.
+1. Start the dev server with `yarn start`.
+1. WebApp will open on http://localhost:8085.
+
+Fork of [React todoMVC](https://github.com/ChrisWiles/React-todoMVC) by ChrisWiles.

@@ -1,10 +1,11 @@
-import React, {Component} from 'react'
+import Brahmos, { Component } from 'brahmos'
+
 import Header from './Header'
 import MainSection from './MainSection'
 
 const initialState = [
   {
-    text: 'React ES6 TodoMVC',
+    text: 'Brahmos TodoMVC',
     completed: false,
     id: 0
   }
@@ -76,8 +77,11 @@ class App extends Component {
   render() {
     return(
       <div>
-        <Header addTodo={this.actions.addTodo} />
-        <MainSection todos={this.state.todos} actions={this.actions} />
+        <div className="todoapp">
+          <Header addTodo={this.actions.addTodo} />
+          <MainSection todos={this.state.todos} actions={this.actions} />
+        </div>
+      	<p align="center"><a href="https://github.com/s-yadav/brahmos-todo-mvc">Todo MVC</a> Built with <a href="https://github.com/s-yadav/brahmos">Brahmos</a></p>
       </div>
     )
   }

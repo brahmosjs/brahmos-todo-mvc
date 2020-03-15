@@ -1,4 +1,5 @@
-import React, {PropTypes} from 'react'
+import Brahmos from 'brahmos'
+
 import TodoTextInput from './TodoTextInput'
 
 const Header = ({addTodo}) => {
@@ -19,10 +20,6 @@ const Header = ({addTodo}) => {
       />
     </header>
   )
-}
-
-Header.propTypes = {
-  addTodo: PropTypes.func.isRequired
 }
 
 export default Header

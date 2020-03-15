@@ -1,14 +1,11 @@
-import React, {Component, PropTypes} from 'react'
+import Brahmos, {Component} from 'brahmos'
+
 import classnames from 'classnames'
 import TodoTextInput from './TodoTextInput'
 
+import './TodoItem.css';
+
 export default class TodoItem extends Component {
-  static propTypes = {
-    todo: PropTypes.object.isRequired,
-    editTodo: PropTypes.func.isRequired,
-    deleteTodo: PropTypes.func.isRequired,
-    completeTodo: PropTypes.func.isRequired
-  }
 
   state = {
     editing: false
